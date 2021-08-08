@@ -3,8 +3,8 @@ function createContact(){
     contact.classList.add('contact');
 
     contact.appendChild(createParagraph('Meet us'));
-    contact.appendChild(createParagraph('Address:- Near Damak View Tower.'));
-    contact.appendChild(createParagraph('Tel No.:- +977-9861939610'));
+    contact.appendChild(createParagraph('Address:- Somewhere Near Damak View Tower.'));
+    contact.appendChild(createParagraph('Tel No.:- +977-555-555-555'));
 
     const map = document.createElement('iframe');
     map.classList.add('map');
